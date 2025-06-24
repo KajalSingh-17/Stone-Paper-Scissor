@@ -7,3 +7,4 @@ A simple game built with Html,Css and JavaScript
 -Responsive Desgin  
 
 ##Live Demo: 
+link - https://stonepaperscissorgamee.netlify.app/
