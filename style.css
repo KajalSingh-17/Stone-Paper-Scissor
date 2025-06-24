@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+margin: 0;
+background-color: rgb(25, 23, 23);
+color:antiquewhite;
+}
+h1{
+    background-color: rgb(4, 4, 52);
+    color: ghostwhite;
+    text-align: center;
+height:5rem;
+line-height: 5rem;
+}
+img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+border-radius: 50%;
+}
+.choices{
+display : flex ;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+
+margin-top:5rem;}
+
+.choice{
+    border-radius: 50%;
+    height:170px;
+    width:170px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.choice:hover {
+cursor: pointer;
+background-color: wheat;
+}
+.score , .msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    font-size: 2rem;
+    gap:5rem;
+    margin-top: 5rem;;
+}
+.score-board , .comp-board{
+    font-size: 2.3rem;
+    text-align: center;
+  
+}
+.msg-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#msg {
+  font-size: 2rem;
+  background-color: rgb(4, 4, 52);
+  padding: 1rem 2rem;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 10px; 
+}
+#ms{
+justify-content: center;
+display: flex;
+align-items: center;
+}
+button {
+  background-color: rgb(4, 4, 52);
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  padding-top: 1rem;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  margin: 20px auto;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: rgb(22, 22, 92);
+  transform: scale(1.05);
+  line-height: 60px;
+}
+
