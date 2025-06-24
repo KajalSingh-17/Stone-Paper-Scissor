@@ -1,11 +1,11 @@
 *{
     padding: 0;
 margin: 0;
-background-color: rgb(25, 23, 23);
-color:antiquewhite;
+background-color: whitesmoke;
+color:black;
 }
 h1{
-    background-color: rgb(4, 4, 52);
+    background-color:rgb(6, 14, 56);
     color: ghostwhite;
     text-align: center;
 height:5rem;
@@ -35,7 +35,7 @@ margin-top:5rem;}
 }
 .choice:hover {
 cursor: pointer;
-background-color: wheat;
+background-color: black;
 }
 .score , .msg {
     display: flex;
@@ -87,6 +87,7 @@ button {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
+padding-bottom: 1rem;
 }
 
 button:hover {

@@ -16,7 +16,7 @@ user.innerText=userScore;
 comp.innerText =compScore;
 move.innerText =totalMove ;
 msg.innerText="Your Game is Reset";
-msg.style.backgroundColor="yellow";
+msg.style.backgroundColor="#445e93";
 
   })
 
@@ -58,7 +58,7 @@ const drawGame=()=>{
 
   console.log("Draw");
   msg.innerText="DRAW"
-   msg.style.backgroundColor="cyan"
+   msg.style.backgroundColor="#81306C"
 }
 // Logic
 const playGame=(userChoice)=>{
